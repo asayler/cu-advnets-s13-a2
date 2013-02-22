@@ -1,1 +1,4 @@
 *.tgz
+*~
+ptprox
+ptprox.log

@@ -1,0 +1,12 @@
+
+
+   H1 --XX-- H2
+    \        /
+     \    proxy
+      \    /
+       \  /
+        H3
+
+H1 <--> H2 : Drop
+H1 <--> H3 : Direct
+H2 <--> H3 : Proxy

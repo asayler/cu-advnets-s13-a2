@@ -26,6 +26,17 @@ class MyTopo(Topo):
 
                 # EDIT HERE
 
+		switch0 = self.addSwitch('s0')
+
+		prox = self.addHost('prox')
+		h1 = self.addHost('h1')
+		h2 = self.addHost('h2')
+		h3 = self.addHost('h3')
+		
+		link0 = self.addLink(prox, switch0)
+		link1 = self.addLink(h1, switch0)
+		link2 = self.addLink(h2, switch0)
+		link3 = self.addLink(h3, switch0)
 
 
 class Floodlight(Thread):
