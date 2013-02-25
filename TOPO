@@ -1,4 +1,17 @@
+Andy Sayler
+Advaned Networks
+Assignment 2
+Step 2
+Topology
 
+*** Physical Topo ***
+
+   ____s1____
+   |  |  |  |
+   |  |  |  |
+   H1 H2 H3 proxy  
+
+*** Logical Topo ***
 
    H1 --XX-- H2
     \        /
@@ -6,6 +19,8 @@
       \    /
        \  /
         H3
+
+*** Rules ***
 
 H1 <--> H2 : Drop
 H1 <--> H3 : Direct
