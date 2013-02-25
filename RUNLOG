@@ -1,0 +1,42 @@
+mininet@mininet-vm:~/advnets-a2$ sudo ./run.py
+mininet> h1 ping h2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+^C
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3026ms
+mininet> h1 ping h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_req=2 ttl=64 time=0.378 ms
+64 bytes from 10.0.0.3: icmp_req=3 ttl=64 time=0.089 ms
+64 bytes from 10.0.0.3: icmp_req=4 ttl=64 time=0.071 ms
+^C
+--- 10.0.0.3 ping statistics ---
+4 packets transmitted, 3 received, 25% packet loss, time 3000ms
+rtt min/avg/max/mdev = 0.071/0.179/0.378/0.141 ms
+mininet> h2 ping h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_req=2 ttl=64 time=1.25 ms
+64 bytes from 10.0.0.3: icmp_req=3 ttl=64 time=0.333 ms
+64 bytes from 10.0.0.3: icmp_req=4 ttl=64 time=0.403 ms
+^C
+--- 10.0.0.3 ping statistics ---
+4 packets transmitted, 3 received, 25% packet loss, time 3008ms
+rtt min/avg/max/mdev = 0.333/0.664/1.257/0.420 ms
+mininet> pingall
+*** Ping: testing ping reachability
+h1 -> X h3 X 
+h2 -> X h3 X 
+h3 -> h1 h2 X 
+prox -> X X X 
+*** Results: 66% dropped (8/12 lost)
+mininet> nodes
+available nodes are: 
+h1 h2 h3 prox s1 c0
+mininet> net
+c0
+s1 lo:  s1-eth1:h1-eth0 s1-eth2:h2-eth0 s1-eth3:h3-eth0 s1-eth4:prox-eth0
+h1 h1-eth0:s1-eth1
+h2 h2-eth0:s1-eth2
+h3 h3-eth0:s1-eth3
+prox prox-eth0:s1-eth4
+mininet> exit

@@ -1,0 +1,351 @@
+21:47:46.813 [main] INFO  n.f.c.module.FloodlightModuleLoader - Loading default modules
+21:47:46.832 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting module loader
+21:47:46.835 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.core.FloodlightProvider
+21:47:46.844 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.storage.memory.MemoryStorageSource
+21:47:46.851 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.devicemanager.internal.DeviceManagerImpl
+21:47:46.858 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager
+21:47:46.861 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.topology.TopologyManager
+21:47:46.878 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.forwarding.Forwarding
+21:47:46.879 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.flowcache.FlowCache
+21:47:46.881 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.flowcache.FlowReconcileManager
+21:47:46.885 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.core.OFMessageFilterManager
+21:47:46.887 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher
+21:47:46.888 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.perfmon.PktInProcessingTime
+21:47:46.889 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.perfmon.NullPktInProcessingTime
+21:47:46.890 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.restserver.RestApiServer
+21:47:46.892 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.learningswitch.LearningSwitch
+21:47:46.893 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.hub.Hub
+21:47:46.893 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.jython.JythonDebugInterface
+21:47:46.895 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.counter.CounterStore
+21:47:46.896 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.counter.NullCounterStore
+21:47:46.897 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.threadpool.ThreadPool
+21:47:46.900 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.ui.web.StaticWebRoutable
+21:47:46.902 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.virtualnetwork.VirtualNetworkFilter
+21:47:46.905 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.devicemanager.internal.DefaultEntityClassifier
+21:47:46.905 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Could not find module
+21:47:46.905 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Could not find module
+21:47:46.906 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Could not find module
+21:47:46.914 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.firewall.Firewall
+21:47:46.923 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.loadbalancer.LoadBalancer
+21:47:46.923 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.packetinprinter.PacketInPrinter
+21:47:46.925 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.advnet.AdvNetRouter
+21:47:46.926 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.storage.memory.MemoryStorageSource@71f76db2  as provider for net.floodlightcontroller.storage.IStorageSourceService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.core.internal.Controller@665b9efd  as provider for net.floodlightcontroller.core.IFloodlightProviderService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.threadpool.ThreadPool@627b524c  as provider for net.floodlightcontroller.threadpool.IThreadPoolService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.devicemanager.internal.DeviceManagerImpl@5e0469bc  as provider for net.floodlightcontroller.devicemanager.IDeviceService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.devicemanager.internal.DefaultEntityClassifier@45ecab0  as provider for net.floodlightcontroller.devicemanager.IEntityClassifierService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher@440df46a  as provider for net.floodlightcontroller.staticflowentry.IStaticFlowEntryPusherService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.firewall.Firewall@1ec8adea  as provider for net.floodlightcontroller.firewall.IFirewallService
+21:47:46.938 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager@4e27e905  as provider for net.floodlightcontroller.linkdiscovery.ILinkDiscoveryService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.topology.TopologyManager@5ea06e26  as provider for net.floodlightcontroller.topology.ITopologyService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.topology.TopologyManager@5ea06e26  as provider for net.floodlightcontroller.routing.IRoutingService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.flowcache.FlowCache@159f9744  as provider for net.floodlightcontroller.flowcache.IFlowCacheService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.flowcache.FlowReconcileManager@7a631c70  as provider for net.floodlightcontroller.flowcache.IFlowReconcileService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.counter.CounterStore@9d1649f  as provider for net.floodlightcontroller.counter.ICounterStoreService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.perfmon.PktInProcessingTime@251241f5  as provider for net.floodlightcontroller.perfmon.IPktInProcessingTimeService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.loadbalancer.LoadBalancer@21c863cf  as provider for net.floodlightcontroller.loadbalancer.ILoadBalancerService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.restserver.RestApiServer@4732a704  as provider for net.floodlightcontroller.restserver.IRestApiService
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.storage.memory.MemoryStorageSource
+21:47:46.939 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.core.FloodlightProvider
+21:47:46.944 [main] DEBUG n.f.core.internal.Controller - OpenFlow port set to 6633
+21:47:46.944 [main] DEBUG n.f.core.internal.Controller - Number of worker threads set to 0
+21:47:46.944 [main] DEBUG n.f.core.internal.Controller - ControllerId set to localhost
+21:47:46.944 [main] INFO  n.f.core.internal.Controller - Controller role set to MASTER
+21:47:46.954 [main] INFO  n.f.core.internal.Controller - Flush switches on reconnect -- Disabled
+21:47:46.954 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.threadpool.ThreadPool
+21:47:46.956 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.devicemanager.internal.DeviceManagerImpl
+21:47:46.957 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.devicemanager.internal.DefaultEntityClassifier
+21:47:46.957 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher
+21:47:46.957 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.firewall.Firewall
+21:47:46.957 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.advnet.AdvNetRouter
+21:47:46.957 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager
+21:47:46.957 [main] DEBUG n.f.l.internal.LinkDiscoveryManager - Event history size set to 1024
+21:47:46.963 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.topology.TopologyManager
+21:47:46.964 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.flowcache.FlowCache
+21:47:46.965 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.flowcache.FlowReconcileManager
+21:47:46.965 [main] DEBUG n.f.flowcache.FlowReconcileManager - FlowReconcile is true
+21:47:46.965 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.jython.JythonDebugInterface
+21:47:46.965 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.counter.CounterStore
+21:47:46.965 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.perfmon.PktInProcessingTime
+21:47:46.965 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.ui.web.StaticWebRoutable
+21:47:46.965 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.loadbalancer.LoadBalancer
+21:47:46.988 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.packetinprinter.PacketInPrinter
+21:47:46.988 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.restserver.RestApiServer
+21:47:46.988 [main] DEBUG n.f.restserver.RestApiServer - REST port set to 8080
+21:47:46.988 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.storage.memory.MemoryStorageSource
+21:47:46.990 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.core.FloodlightProvider
+21:47:46.997 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.threadpool.ThreadPool
+21:47:46.997 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.devicemanager.internal.DeviceManagerImpl
+21:47:47.000 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.devicemanager.internal.DefaultEntityClassifier
+21:47:47.001 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher
+21:47:47.005 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.firewall.Firewall
+21:47:47.006 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.advnet.AdvNetRouter
+21:47:47.006 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager
+21:47:47.006 [main] INFO  n.f.l.internal.LinkDiscoveryManager - Setting autoportfast feature to OFF
+21:47:47.016 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.topology.TopologyManager
+21:47:47.017 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.flowcache.FlowCache
+21:47:47.017 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.flowcache.FlowReconcileManager
+21:47:47.018 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.jython.JythonDebugInterface
+21:47:47.019 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.counter.CounterStore
+21:47:47.019 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.perfmon.PktInProcessingTime
+21:47:47.020 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.ui.web.StaticWebRoutable
+21:47:47.020 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.loadbalancer.LoadBalancer
+21:47:47.020 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.packetinprinter.PacketInPrinter
+21:47:47.021 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.restserver.RestApiServer
+21:47:47.021 [main] DEBUG n.f.restserver.RestApiServer - REST API routables: StorageWebRoutable (/wm/storage), CoreWebRoutable (/wm/core), DeviceRoutable (/wm/device), StaticFlowEntryWebRoutable (/wm/staticflowentrypusher), FirewallWebRoutable (/wm/firewall), LinkDiscoveryWebRoutable (/wm/linkdiscovery), TopologyWebRoutable (/wm/topology), PerfWebRoutable (/wm/performance), StaticWebRoutable (/ui/), LoadBalancerWebRoutable (/quantum/v1.0), 
+21:47:47.208 [main] INFO  o.r.Component.InternalRouter.Server - Starting the Simple [HTTP/1.1] server on port 8080
+21:47:47.258 [main] DEBUG n.f.core.internal.Controller - OFListeners for PORT_STATUS: linkdiscovery,
+21:47:47.258 [main] DEBUG n.f.core.internal.Controller - OFListeners for PACKET_IN: firewall,AdvNetRouter,linkdiscovery,topology,devicemanager,loadbalancer,PacketInPrinter,
+21:47:47.258 [main] DEBUG n.f.core.internal.Controller - OFListeners for FLOW_REMOVED: staticflowentry,
+21:47:47.335 [main] INFO  n.f.core.internal.Controller - Listening for switch connections on 0.0.0.0/0.0.0.0:6633
+21:47:50.779 [debugserver-main] INFO  n.f.jython.JythonServer - Starting DebugServer on port 6655
+21:48:00.061 [New I/O server worker #1-1] INFO  n.f.core.internal.Controller - New switch connection from /127.0.0.1:46110
+21:48:00.068 [New I/O server worker #1-2] INFO  n.f.core.internal.Controller - New switch connection from /127.0.0.1:46111
+21:48:00.077 [New I/O server worker #1-2] INFO  n.f.core.internal.Controller - Disconnected switch null
+21:48:00.078 [New I/O server worker #1-1] INFO  n.f.core.internal.Controller - Disconnected switch null
+21:48:00.357 [New I/O server worker #1-3] INFO  n.f.core.internal.Controller - New switch connection from /127.0.0.1:46112
+21:48:00.385 [New I/O server worker #1-3] DEBUG n.f.core.internal.Controller - Waiting for switch description from switch /127.0.0.1:46112
+21:48:00.388 [New I/O server worker #1-3] INFO  n.f.core.internal.Controller - Switch 00:00:00:00:00:00:00:01 bound to class net.floodlightcontroller.core.internal.OFSwitchImpl
+21:48:00.388 [New I/O server worker #1-3] INFO  n.f.core.internal.Controller - Switch Desc - Vendor: Nicira Networks, Inc.  Model: Open vSwitch  Make: None  Version: 1.4.3  S/N: None
+21:48:00.388 [New I/O server worker #1-3] DEBUG n.f.core.internal.Controller - This controller's role is MASTER, sending initial role request msg to OFSwitchBase [/127.0.0.1:46112 DPID[00:00:00:00:00:00:00:01]]
+21:48:00.390 [New I/O server worker #1-3] DEBUG n.f.core.internal.RoleChanger - Handling role reply for role MASTER from OFSwitchBase [/127.0.0.1:46112 DPID[00:00:00:00:00:00:00:01]]. Controller's role is MASTER 
+21:48:00.391 [New I/O server worker #1-3] DEBUG n.f.core.internal.RoleChanger - Received role reply message from net.floodlightcontroller.core.internal.RoleChanger@7cd8af5c, setting role to MASTER
+21:48:00.392 [main] DEBUG n.f.s.StaticFlowEntryPusher - Switch 00:00:00:00:00:00:00:01 connected; processing its static entries
+21:48:00.647 [New I/O server worker #1-3] DEBUG n.f.d.internal.DeviceManagerImpl - New device created: Device [deviceKey=0, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:04, IPs=[], APs=[SwitchPort [switchDPID=1, port=4, errorStatus=null]]] deviceKey=0, entity=Entity [macAddress=00:00:00:00:00:04, ipv4Address=0.0.0.0, vlan=null, switchDPID=1, switchPort=4, lastSeenTimestamp=1361771280640, activeSince=1361771280640]
+21:48:00.648 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:04
+dl_dst: 33:33:ff:00:00:04
+data packet
+
+21:48:00.767 [New I/O server worker #1-3] DEBUG n.f.d.internal.DeviceManagerImpl - Not learning new device on internal link: Entity [macAddress=00:00:00:00:00:01, ipv4Address=0.0.0.0, vlan=null, switchDPID=1, switchPort=1, lastSeenTimestamp=1361771280767, activeSince=1361771280767]
+21:48:00.872 [New I/O server worker #1-3] DEBUG n.f.d.internal.DeviceManagerImpl - New device created: Device [deviceKey=1, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:03, IPs=[], APs=[SwitchPort [switchDPID=1, port=3, errorStatus=null]]] deviceKey=1, entity=Entity [macAddress=00:00:00:00:00:03, ipv4Address=0.0.0.0, vlan=null, switchDPID=1, switchPort=3, lastSeenTimestamp=1361771280871, activeSince=1361771280871]
+21:48:00.872 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:03
+dl_dst: 33:33:ff:00:00:03
+data packet
+
+21:48:01.094 [New I/O server worker #1-3] DEBUG n.f.core.internal.Controller - Port #1 modified for OFSwitchBase [/127.0.0.1:46112 DPID[00:00:00:00:00:00:00:01]]
+21:48:01.195 [New I/O server worker #1-3] DEBUG n.f.d.internal.DeviceManagerImpl - New device created: Device [deviceKey=2, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:01, IPs=[], APs=[SwitchPort [switchDPID=1, port=1, errorStatus=null]]] deviceKey=2, entity=Entity [macAddress=00:00:00:00:00:01, ipv4Address=0.0.0.0, vlan=null, switchDPID=1, switchPort=1, lastSeenTimestamp=1361771281195, activeSince=1361771281195]
+21:48:01.195 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:01
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:01.255 [New I/O server worker #1-3] DEBUG n.f.d.internal.DeviceManagerImpl - New device created: Device [deviceKey=3, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:02, IPs=[], APs=[SwitchPort [switchDPID=1, port=2, errorStatus=null]]] deviceKey=3, entity=Entity [macAddress=00:00:00:00:00:02, ipv4Address=0.0.0.0, vlan=null, switchDPID=1, switchPort=2, lastSeenTimestamp=1361771281255, activeSince=1361771281255]
+21:48:01.256 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:02
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:01.607 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:04
+dl_dst: 33:33:00:00:00:16
+data packet
+
+21:48:01.627 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:04
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:01.871 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:03
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:02.016 [pool-3-thread-5] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:48:02.143 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:03
+dl_dst: 33:33:00:00:00:16
+data packet
+
+21:48:02.375 [New I/O server worker #1-3] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=265, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=1,dl_dst=00:11:00:11:00:11,dl_src=00:00:00:00:00:01], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:48:03.388 [New I/O server worker #1-3] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=266, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=2,dl_dst=00:11:00:11:00:11,dl_src=00:00:00:00:00:02], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:48:04.404 [New I/O server worker #1-3] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=267, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=3,dl_dst=00:11:00:11:00:11,dl_src=00:00:00:00:00:03], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:48:05.203 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:01
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:05.259 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:02
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:05.429 [New I/O server worker #1-3] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=270, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:11:00:11:00:11,dl_src=00:00:00:00:00:04], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:48:05.635 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:04
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:05.883 [New I/O server worker #1-3] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:03
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:06.439 [New I/O server worker #1-3] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchBase [/127.0.0.1:46112 DPID[00:00:00:00:00:00:00:01]]
+21:48:06.440 [New I/O server worker #1-3] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchBase [/127.0.0.1:46112 DPID[00:00:00:00:00:00:00:01]]
+21:48:06.500 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - New switch connection from /127.0.0.1:46113
+21:48:06.501 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - Waiting for switch description from switch /127.0.0.1:46113
+21:48:06.503 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - Switch 00:00:00:00:00:00:00:01 bound to class net.floodlightcontroller.core.internal.OFSwitchImpl
+21:48:06.504 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - Switch Desc - Vendor: Nicira Networks, Inc.  Model: Open vSwitch  Make: None  Version: 1.4.3  S/N: None
+21:48:06.504 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - This controller's role is MASTER, sending initial role request msg to OFSwitchBase [/127.0.0.1:46113 DPID[00:00:00:00:00:00:00:01]]
+21:48:06.504 [New I/O server worker #1-4] DEBUG n.f.core.internal.RoleChanger - Handling role reply for role MASTER from OFSwitchBase [/127.0.0.1:46113 DPID[00:00:00:00:00:00:00:01]]. Controller's role is MASTER 
+21:48:06.505 [New I/O server worker #1-4] DEBUG n.f.core.internal.RoleChanger - Received role reply message from net.floodlightcontroller.core.internal.RoleChanger@7cd8af5c, setting role to MASTER
+21:48:06.505 [main] DEBUG n.f.s.StaticFlowEntryPusher - Switch 00:00:00:00:00:00:00:01 connected; processing its static entries
+21:48:09.211 [New I/O server worker #1-4] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:01
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:09.267 [New I/O server worker #1-4] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:02
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:09.643 [New I/O server worker #1-4] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:04
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:09.891 [New I/O server worker #1-4] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:03
+dl_dst: 33:33:00:00:00:02
+data packet
+
+21:48:09.915 [New I/O server worker #1-4] INFO  n.f.packetinprinter.PacketInPrinter - PacketIn Event on switch 1: 
+
+-31011
+dl_vlan: untagged
+dl_vlan_pcp: 0
+dl_src: 00:00:00:00:00:02
+dl_dst: 33:33:00:00:00:16
+data packet
+
+21:48:13.045 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:1 00:00:00:00:00:01 --> 00:00:00:00:00:02
+21:48:13.045 [New I/O server worker #1-4] INFO  AdvNetRouter - pair: H1 <--> H2 : Drop
+21:48:13.046 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:48:13.047 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=261, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=1,dl_dst=00:00:00:00:00:02,dl_src=00:00:00:00:00:01], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:48:17.031 [pool-3-thread-13] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:48:20.197 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:1 00:00:00:00:00:01 --> 00:00:00:00:00:03
+21:48:20.197 [New I/O server worker #1-4] INFO  AdvNetRouter - pair: H1 <--> H3 : Direct
+21:48:20.197 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DIRECT
+21:48:20.200 [New I/O server worker #1-4] INFO  AdvNetRouter - Route: Route [id=RouteId [src=00:00:00:00:00:00:00:01 dst=00:00:00:00:00:00:00:01], switchPorts=[[id=00:00:00:00:00:00:00:01, port=1], [id=00:00:00:00:00:00:00:01, port=3]]]
+21:48:20.200 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[OFActionOutput [maxLength=-1, port=3, length=8, type=OUTPUT]], bufferId=-1, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=1,dl_dst=00:00:00:00:00:03,dl_src=00:00:00:00:00:01], outPort=-1, priority=0, length=80, type=FLOW_MOD, version=1, xid=0]
+21:48:20.201 [New I/O server worker #1-4] INFO  AdvNetRouter - Route: Route [id=RouteId [src=00:00:00:00:00:00:00:01 dst=00:00:00:00:00:00:00:01], switchPorts=[[id=00:00:00:00:00:00:00:01, port=3], [id=00:00:00:00:00:00:00:01, port=1]]]
+21:48:20.201 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[OFActionOutput [maxLength=-1, port=1, length=8, type=OUTPUT]], bufferId=262, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=3,dl_dst=00:00:00:00:00:01,dl_src=00:00:00:00:00:03], outPort=-1, priority=0, length=80, type=FLOW_MOD, version=1, xid=0]
+21:48:28.811 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:2 00:00:00:00:00:02 --> 00:00:00:00:00:03
+21:48:28.812 [New I/O server worker #1-4] INFO  AdvNetRouter - pair: H2 <--> H3 : Proxy
+21:48:28.812 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_PROXY
+21:48:28.812 [New I/O server worker #1-4] INFO  AdvNetRouter - Route: Route [id=RouteId [src=00:00:00:00:00:00:00:01 dst=00:00:00:00:00:00:00:01], switchPorts=[[id=00:00:00:00:00:00:00:01, port=2], [id=00:00:00:00:00:00:00:01, port=4]]]
+21:48:28.812 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[OFActionOutput [maxLength=-1, port=4, length=8, type=OUTPUT]], bufferId=-1, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=2,dl_dst=00:00:00:00:00:03,dl_src=00:00:00:00:00:02], outPort=-1, priority=0, length=80, type=FLOW_MOD, version=1, xid=0]
+21:48:28.813 [New I/O server worker #1-4] INFO  AdvNetRouter - Route: Route [id=RouteId [src=00:00:00:00:00:00:00:01 dst=00:00:00:00:00:00:00:01], switchPorts=[[id=00:00:00:00:00:00:00:01, port=4], [id=00:00:00:00:00:00:00:01, port=3]]]
+21:48:28.813 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[OFActionOutput [maxLength=-1, port=3, length=8, type=OUTPUT]], bufferId=-1, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:03,dl_src=00:00:00:00:00:02], outPort=-1, priority=0, length=80, type=FLOW_MOD, version=1, xid=0]
+21:48:28.813 [New I/O server worker #1-4] INFO  AdvNetRouter - Route: Route [id=RouteId [src=00:00:00:00:00:00:00:01 dst=00:00:00:00:00:00:00:01], switchPorts=[[id=00:00:00:00:00:00:00:01, port=3], [id=00:00:00:00:00:00:00:01, port=4]]]
+21:48:28.813 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[OFActionOutput [maxLength=-1, port=4, length=8, type=OUTPUT]], bufferId=-1, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=3,dl_dst=00:00:00:00:00:02,dl_src=00:00:00:00:00:03], outPort=-1, priority=0, length=80, type=FLOW_MOD, version=1, xid=0]
+21:48:28.813 [New I/O server worker #1-4] INFO  AdvNetRouter - Route: Route [id=RouteId [src=00:00:00:00:00:00:00:01 dst=00:00:00:00:00:00:00:01], switchPorts=[[id=00:00:00:00:00:00:00:01, port=4], [id=00:00:00:00:00:00:00:01, port=2]]]
+21:48:28.813 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[OFActionOutput [maxLength=-1, port=2, length=8, type=OUTPUT]], bufferId=263, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:02,dl_src=00:00:00:00:00:03], outPort=-1, priority=0, length=80, type=FLOW_MOD, version=1, xid=0]
+21:48:32.044 [pool-3-thread-12] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:48:47.057 [pool-3-thread-13] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:48:47.077 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:1 00:00:00:00:00:01 --> 00:00:00:00:00:04
+21:48:47.077 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:48:47.077 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=264, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=1,dl_dst=00:00:00:00:00:04,dl_src=00:00:00:00:00:01], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:48:57.080 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:2 00:00:00:00:00:02 --> 00:00:00:00:00:01
+21:48:57.081 [New I/O server worker #1-4] INFO  AdvNetRouter - pair: H1 <--> H2 : Drop
+21:48:57.081 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:48:57.081 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=265, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=2,dl_dst=00:00:00:00:00:01,dl_src=00:00:00:00:00:02], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:02.075 [pool-3-thread-4] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:49:07.088 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:2 00:00:00:00:00:02 --> 00:00:00:00:00:04
+21:49:07.089 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:07.089 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=266, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=2,dl_dst=00:00:00:00:00:04,dl_src=00:00:00:00:00:02], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:17.090 [pool-3-thread-6] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:49:17.100 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:3 00:00:00:00:00:03 --> 00:00:00:00:00:04
+21:49:17.101 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:17.101 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=267, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=3,dl_dst=00:00:00:00:00:04,dl_src=00:00:00:00:00:03], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:27.105 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:4 00:00:00:00:00:04 --> 00:00:00:00:00:01
+21:49:27.105 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:27.105 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=268, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:01,dl_src=00:00:00:00:00:04], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:27.110 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:4 00:00:00:00:00:04 --> 00:00:00:00:00:01
+21:49:27.110 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:27.110 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=269, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:01,dl_src=00:00:00:00:00:04], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:32.101 [pool-3-thread-6] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:49:37.106 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:4 00:00:00:00:00:04 --> 00:00:00:00:00:02
+21:49:37.106 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:37.106 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=270, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:02,dl_src=00:00:00:00:00:04], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:37.107 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:4 00:00:00:00:00:04 --> 00:00:00:00:00:02
+21:49:37.107 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:37.107 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=271, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:02,dl_src=00:00:00:00:00:04], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:47.111 [New I/O server worker #1-4] DEBUG AdvNetRouter - packet_in: 1:4 00:00:00:00:00:04 --> 00:00:00:00:00:03
+21:49:47.111 [New I/O server worker #1-4] INFO  AdvNetRouter - packet_in: routing mode: ROUTE_DROP
+21:49:47.111 [New I/O server worker #1-4] DEBUG AdvNetRouter - writing flow mod: OFFlowMod [actionFactory=org.openflow.protocol.factory.BasicFactory@27c3a4a3, actions=[], bufferId=272, command=0, cookie=450359962737049600, flags=0, hardTimeout=0, idleTimeout=0, match=OFMatch[in_port=4,dl_dst=00:00:00:00:00:03,dl_src=00:00:00:00:00:04], outPort=-1, priority=0, length=72, type=FLOW_MOD, version=1, xid=0]
+21:49:47.115 [pool-3-thread-15] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:50:02.153 [pool-3-thread-6] DEBUG n.f.l.internal.LinkDiscoveryManager - Sending LLDP out on all ports.
+21:50:04.390 [New I/O server worker #1-4] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchBase [/127.0.0.1:46113 DPID[00:00:00:00:00:00:00:01]]
+21:50:04.390 [New I/O server worker #1-4] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchBase [/127.0.0.1:46113 DPID[00:00:00:00:00:00:00:01]]
+21:50:04.734 [pool-3-thread-2] DEBUG n.f.d.internal.DeviceManagerImpl - Attachment point changed for device: Device [deviceKey=0, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:04, IPs=[], APs=[]]
+21:50:04.735 [pool-3-thread-2] DEBUG n.f.d.internal.DeviceManagerImpl - Attachment point changed for device: Device [deviceKey=2, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:01, IPs=[], APs=[]]
+21:50:04.735 [pool-3-thread-2] DEBUG n.f.d.internal.DeviceManagerImpl - Attachment point changed for device: Device [deviceKey=1, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:03, IPs=[], APs=[]]
+21:50:04.735 [pool-3-thread-2] DEBUG n.f.d.internal.DeviceManagerImpl - Attachment point changed for device: Device [deviceKey=3, entityClass=DefaultEntityClass, MAC=00:00:00:00:00:02, IPs=[], APs=[]]
