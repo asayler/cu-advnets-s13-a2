@@ -1,0 +1,21 @@
+Andy Sayler
+Advanced Networks
+Assignment 2
+Step 2
+MAGIC MAC
+
+The MAGIC_MAC and MAGIC_IP addresses are used to signal to the
+controller which switch port each host is connected to. In the run.py
+file, we manully populate the ARP table for each host instead of
+actually relying on real ARP messages. Normally, the controller would
+identify which host is connected to which port by snooping the actual
+ARP traffic, but since our simulation never generates any ARP traffic,
+this is not possible. Instead we make sure that each host sends a
+special message to the MAGIC_MAC/MAGIC_IP. The controller watches for
+these MAGIC values and uses them to populate its port-to-host
+mappings. These mappings are used to routing elsewhere in the
+controller code.
+
+I assume we are using the MAGIC method of populating port-to-host
+mappings because it is simpler then relying on true ARP message
+sniffing, etc.
