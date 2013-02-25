@@ -28,15 +28,15 @@ class MyTopo(Topo):
 
 		switch0 = self.addSwitch('s1')
 
-		prox = self.addHost('prox')
 		h1 = self.addHost('h1')
 		h2 = self.addHost('h2')
 		h3 = self.addHost('h3')
+		prox = self.addHost('prox')
 		
-		link0 = self.addLink(prox, switch0)
 		link1 = self.addLink(h1, switch0)
 		link2 = self.addLink(h2, switch0)
 		link3 = self.addLink(h3, switch0)
+		link0 = self.addLink(prox, switch0)
 
 
 class Floodlight(Thread):
@@ -53,7 +53,7 @@ class Floodlight(Thread):
 			self.log = open(self.log, 'w')
 
 		self.proc = Popen(
-			("java", "-jar", jar),
+			("java", "-jar", self.jar),
 			stdout=self.log, stderr=self.log
 		)
 
@@ -130,7 +130,7 @@ if __name__ == "__main__":
 	args = parse_args()
 
 	if args.jar:
-		fl = Controller(args.jar, args.log)
+		fl = Floodlight(args.jar, args.log)
 		fl.start()
 
 	build_prox(args.prox)
