@@ -17,9 +17,26 @@ MAGIC      - Short description of the ARP magic used by the controller in Step 2
 PROXLOG    - A reference proxy log from a known-good run for Step 2
 ptprox.c   - Working copy of the proxy code for Step 2
 README     - This file
-run.py     - A python script to start Mininet with a given topology, start
+run.py     - A python script to start mininet with a given topology, start
              the proxy and perform some fake ARP magic for our purposes
+RUNLOG     - Dump of a known-good reference mininet session for Step 2
 TOPO       - Description of the test topology and policy for Step 2
+
+*** Notes and Issues ***
+
+- The proxy crashes ungracefully after mininet is closed,
+  leading to a series of
+  "/proc/14340/ns/net: No such file or directory"
+  errors at the end of the proxy log file.
+- The run.py script fails to clean up its threads when exiting,
+  leading to it hanging until the associated python process is
+  manually killed
+- The AdvNetRouter module in the Floodlight controller occasionally
+  throws null pointer exceptions. These do not seem to effect
+  functionality.
+- Using the names 's0', 'switch0' and perhaps others for switch names
+  in the mininet topology specified in run.py leads to a lack of
+  communication between all hosts. Maybe a bug in mininet 2.0.0?
 
 *** Credit ***
 
