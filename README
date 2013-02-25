@@ -1,6 +1,26 @@
 Andy Sayler
-University of Colorado
+www.andysayler.com
 Advanced Networks
-Spring 2013
-A2
+S13
+Assignment 2
+README
 
+A basic series of mininet + Floodlight tutorials and experiments for
+the University of Colorado Advanced Networks Class, Spring 2013.
+
+*** Files and Directories ***
+
+a2         - Unmodified copies of the provided base code for the assignment
+floodlight - Git sub-module containing a fork of the Floodlight OpenFlow controller
+FLOODLOG   - A reference Floodlight log from a known-good run for Step 2
+MAGIC      - Short description of the ARP magic used by the controller in Step 2
+PROXLOG    - A reference proxy log from a known-good run for Step 2
+ptprox.c   - Working copy of the proxy code for Step 2
+README     - This file
+run.py     - A python script to start Mininet with a given topology, start
+             the proxy and perform some fake ARP magic for our purposes
+TOPO       - Description of the test topology and policy for Step 2
+
+*** Credit ***
+
+Base code by Matthew Monaco and Eric Keller
