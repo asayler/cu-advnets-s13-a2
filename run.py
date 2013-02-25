@@ -26,7 +26,7 @@ class MyTopo(Topo):
 
                 # EDIT HERE
 
-		switch0 = self.addSwitch('s0')
+		switch0 = self.addSwitch('s1')
 
 		prox = self.addHost('prox')
 		h1 = self.addHost('h1')
