@@ -23,22 +23,33 @@ class MyTopo(Topo):
 
 		# Initialize topology
 		Topo.__init__(self)
-
-                # EDIT HERE
-
-		switch0 = self.addSwitch('s1')
-
-		h1 = self.addHost('h1')
-		h2 = self.addHost('h2')
-		h3 = self.addHost('h3')
-		prox = self.addHost('prox')
 		
-		link1 = self.addLink(h1, switch0)
-		link2 = self.addLink(h2, switch0)
-		link3 = self.addLink(h3, switch0)
-		link0 = self.addLink(prox, switch0)
-
-
+		# Initialize the hosts in the topology
+		host1 = self.addHost('h1')
+		host2 = self.addHost('prox')
+		host3 = self.addHost('h3')
+		host4 = self.addHost('h4')
+		
+		# Initialize the switches in the topology
+		switch1 = self.addSwitch('s1')
+		switch2 = self.addSwitch('s2')
+		switch3 = self.addSwitch('s3')
+		
+		# Create links between hosts in the topology
+		# Attach hosts 1, 2, and 4 to switch 1
+		self.addLink(host1, switch1)
+		self.addLink(host2, switch1)
+		self.addLink(host4, switch1)
+		
+		# Attach hosts 2, 3, and 4 to switch 2
+		self.addLink(host2, switch2)
+		self.addLink(host3, switch2)
+		self.addLink(host4, switch2)
+		
+		# Attach hosts 1 and 3 to each other (shows that routing through proxy works)
+		self.addLink(host1, switch3)
+		self.addLink(host3, switch3)
+		
 class Floodlight(Thread):
 
 	def __init__(self, jar, log=None):
